@@ -1,0 +1,14 @@
+VITRA — build on your Termux device
+
+Requirements: Java JDK, clang, zip, Android SDK platform android-33, D8 from Build Tools 35.0.0, and AAPT2/zipalign/apksigner from 34.0.4.
+
+The build script expects your own signing key at ~/vitra/vitra-release.jks (alias: vitra). The keystore is not included.
+
+Run from this directory:
+  bash ./build-termux.sh
+
+APK output:
+  out/VITRA-overhaul.apk
+  ~/storage/shared/Download/VITRA-Overhaul/VITRA-overhaul.apk
+
+Signature verification is not an install/runtime test.

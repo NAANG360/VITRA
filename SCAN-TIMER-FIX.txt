@@ -1,0 +1,8 @@
+VITRA scan timer fix
+
+- The 15-second BLE timeout transitions to TIMED OUT and calls stopScan().
+- Elapsed time is frozen when scanning stops.
+- A 500 ms overlay refresh keeps the displayed state current without requiring a touch; the callback is removed when the Activity is destroyed.
+- The build script inserts classes.dex at the APK root, as required for Android package structure.
+
+This source snapshot has not been independently compiled or runtime-tested in CI.
