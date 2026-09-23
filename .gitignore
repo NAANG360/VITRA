@@ -1,0 +1,23 @@
+# Local build outputs
+out/
+build/
+*.apk
+*.aab
+*.idsig
+*.dex
+*.class
+*.so
+
+# Signing material and credentials
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
